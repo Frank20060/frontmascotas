@@ -39,7 +39,7 @@ export default function RootLayout({ children }) {
                 </li>
                 <li>
                   <a
-                    href="/notihuevo"
+                    href="/Mascotas"
                     className="hover:text-yellow-100 transition-colors duration-300 relative group pb-1 text-xl"
                   >
                     MASCOTAS
@@ -60,11 +60,9 @@ export default function RootLayout({ children }) {
             <div className="grid md:grid-cols-2 gap-8 mb-6">
               <div className="text-white">
                 <p className="font-semibold mb-2 text-lg">
-                  🐔 PolloHub Noticias
+                  MASCOTAS
                 </p>
-                <p className="text-sm text-yellow-100">
-                  Tu fuente no confiable de noticias sobre pollos y avicultura.
-                </p>
+               
               </div>
               <div className="text-white text-right md:text-left">
                 <div className="flex flex-col md:flex-row gap-3 md:justify-end">
@@ -72,13 +70,13 @@ export default function RootLayout({ children }) {
                     href="/new-add"
                     className="inline-flex items-center justify-center gap-2 bg-white text-yellow-600 hover:bg-yellow-50 font-bold py-2 px-4 rounded-lg transition-colors duration-300 shadow hover:shadow-lg"
                   >
-                    Añadir Noticia
+                    Añadir MASCOTA
                   </a>
                   <a
-                    href="/notihuevo"
+                    href="/Mascotas"
                     className="inline-flex items-center justify-center gap-2 bg-yellow-100 text-yellow-800 hover:bg-yellow-200 font-bold py-2 px-4 rounded-lg transition-colors duration-300"
                   >
-                    Ver Noticias
+                    MASCOTAS
                   </a>
                 </div>
               </div>

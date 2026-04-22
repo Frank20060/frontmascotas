@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import { useState, useEffect } from "react";
-import MascotaCard from "../components/MascotaCard";
+import MascotaCard from "../../../components/MascotaCard";
 
 export default function Home() {
   const [mascotas, setMascotas] = useState([]);
@@ -27,7 +27,7 @@ export default function Home() {
     <div className="container mx-auto px-4 py-8">
       <main>
         <h1 className="text-5xl font-bold text-yellow-800 mb-8 text-center">
-          HOME - Mascotas
+          MASCOTAS
         </h1>
 
         {loading ? (
@@ -40,10 +40,9 @@ export default function Home() {
           </div>
         ) : (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {mascotas && mascotas.map((mascota) => (
+            {mascotas.map((mascota) => (
               <MascotaCard key={mascota._id} mascota={mascota} />
             ))}
-            
           </div>
         )}
       </main>
